@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.Collection;
 
 @Entity
-@Table(name = "kupac", schema = "public", catalog = "BICPIFINAL")
+@Table(name = "kupac", schema = "public", catalog = "BICPI")
 public class KupacEntity {
     @Id
     private Integer idkorisnik;

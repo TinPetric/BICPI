@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "narudzba", schema = "public", catalog = "BICPIFINAL")
+@Table(name = "narudzba", schema = "public", catalog = "BICPI")
 public class NarudzbaEntity {
     @Id
     private Integer idnarudzba;

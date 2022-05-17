@@ -3,7 +3,7 @@ package com.bicpi.bicpiserver.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "artikl", schema = "public", catalog = "BICPIFINAL")
+@Table(name = "artikl", schema = "public", catalog = "BICPI")
 public class ArtiklEntity {
     @Id
     private Integer sifartikl;

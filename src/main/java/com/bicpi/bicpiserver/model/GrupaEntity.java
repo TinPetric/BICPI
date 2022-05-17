@@ -4,7 +4,7 @@ package com.bicpi.bicpiserver.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "grupa", schema = "public", catalog = "BICPIFINAL")
+@Table(name = "grupa", schema = "public", catalog = "BICPI")
 public class GrupaEntity {
     @Id
     private Integer idgrupa;
